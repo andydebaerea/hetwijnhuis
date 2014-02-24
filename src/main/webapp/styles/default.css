@@ -1,0 +1,69 @@
+body {
+	font-family: Verdana;
+}
+
+table,th,td {
+	border: 1px solid silver;
+	border-collapse: collapse;
+}
+
+thead tr, tfoot tr {
+	color: white;
+	background-color: gray;
+}
+
+td {
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #FAFAFA;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #E6E6E6;
+}
+
+label {
+	cursor:pointer;
+}
+
+input,select {
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	margin-top: 0.2em;	
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: #FFFFD6
+}
+
+input[type='checkbox'],input[type='radio'] {
+	display: inline;
+}
+
+.fout {
+	color: red;
+	font-weight: bold;
+}
+
+.zonderbolletjes {
+	list-style: none;
+	margin-bottom: 0.2em;
+	padding: 0;	
+}
+
+.zonderbolletjes li {
+	display: inline;
+	margin-right: 0.2em;
+}
+
+h4 {
+	margin-top: 0;
+}
+.right {
+	text-align: right;
+}
+
